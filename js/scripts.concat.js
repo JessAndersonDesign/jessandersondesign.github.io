@@ -127,7 +127,7 @@ a:""})}var h=/\{\{(([@!]?)(.+?))\}\}(([\s\S]+?)(\{\{:\1\}\}([\s\S]+?))?)\{\{\/\1
 				dir: 'illustrations',
 				title: 'Various Illustrations',
 				type: 'Illustrations',
-				images: 11,
+				images: 8,
 				description: 'A collection of various styled portraits of tv characters, whimsical holiday illustrations, and even an illustration for the Portland, OR Division & Clinton Street Fair! You can see more of these projects on <a href="http://behance.com/jessandersondesign">Behance</a>.'
 			},
 			{
