@@ -4,11 +4,19 @@
 	color: #fff;
 
 	img {
-		margin-top: 40px;
-		width: 350px;
-		height: 350px;
-		border-radius: 50%;
-		border: 8px solid #f2f2f2;
+		width: 345px;
+		height: 460px;
+		border-radius: 12px;
+		border: 1px solid #f2f2f2;
 		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+		@media (max-width: 1199.98px) {
+			width: 320px;
+			height: auto;
+		}
+
+		@media (max-width: 991.98px) {
+			width: 260px;
+		}
 	}
 }

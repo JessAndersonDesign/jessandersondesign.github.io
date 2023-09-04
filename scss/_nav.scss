@@ -1,10 +1,6 @@
-$headerHeight: 60px;
+$headerHeight: 55px;
 
 nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
 	height: $headerHeight;
 	background-color: transparent;
 	z-index: 999;
@@ -18,16 +14,13 @@ nav {
 		display: none;
 	}
 
-	ul {
-		float: right;
-	}
 	li {
 		display: inline-block;
 		padding-left: 30px;
 	}
 	a {
 		font-size: 14.5px;
-		line-height: $headerHeight;
+		line-height: ($headerHeight - 15);
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		&:hover {
@@ -39,11 +32,15 @@ nav {
 			border-width: 0;
 			display: inline-block;
 			width: 305px;
-			height: $headerHeight;
-			background: url(../img/logo.png) no-repeat scroll 0 10px transparent;
+			height: ($headerHeight - 15);
+			background: url(../img/logo.png) no-repeat scroll 0 0 transparent;
 			background-size: 305px 40px;
 			text-indent: -9999em;
 			overflow: hidden;
+
+			@media (max-width: 767.98px) {
+				width: 40px;
+			}
 		}
 	}
 }

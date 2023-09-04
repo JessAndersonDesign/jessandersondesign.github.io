@@ -1,11 +1,22 @@
 #home {
 	img {
-		width: 941px;
-		height: 378px;
+		width: 860px;
+		height: 176px;
 		margin: 120px 0 40px;
 	}
 	p {
 		font-size: 1.4em;
 		color: #666;
+	}
+
+	@media (max-width: 991.98px) {
+		img {
+			width: 90%;
+			height: auto;
+		}
+
+		p {
+			font-size: 1.2em;
+		}
 	}
 }

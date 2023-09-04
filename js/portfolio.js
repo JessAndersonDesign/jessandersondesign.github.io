@@ -2,9 +2,6 @@
 	var $w = $(w),
 		$b = $(d.body),
 
-
-
-
 		// project data
 		projects = [
 			{
