@@ -152,6 +152,7 @@
 		showImage = function(project, idx) {
 			var $imageContainer = $('#portfolio-overlay > div:first-child');
 			project.image = idx || 1;
+			project.imageType = project.imageType || 'jpg';
 			$imageContainer.html('').append(tImage.render(project));
 		},
 
@@ -167,7 +168,6 @@
 				return;
 			}
 			var image = $image.data('image'),
-				imageType = $image.data('imageType') || 'jpg',
 				idx = $image.data('idx'),
 				project = projects[idx],
 				nextImage = prev || ($target && $target.hasClass('prev-img')) ? image-1 : image+1;
