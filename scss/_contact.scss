@@ -1,0 +1,24 @@
+#contact {
+	background-color: #1e8689;
+	background-image: repeating-linear-gradient(-45deg, #1e8689, #1e8689 36px, #167e81 36px, #167e81 40px);
+	min-height: 92.5%;
+
+	img {
+		margin-top: 40px;
+		width: 420px;
+		height: 433px;
+	}
+
+	li {
+		padding-top: 40px;
+	}
+	a {
+		display: block;
+		line-height: 1.5em;
+		i {
+			font-size: 180%;
+			color: #fff;
+		}
+	}
+	
+}

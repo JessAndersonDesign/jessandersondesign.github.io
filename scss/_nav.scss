@@ -1,0 +1,49 @@
+$headerHeight: 60px;
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: $headerHeight;
+	background-color: transparent;
+	z-index: 999;
+
+	body.scrolled & {
+		background-color: #fff;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	}
+
+	.icon-menu {
+		display: none;
+	}
+
+	ul {
+		float: right;
+	}
+	li {
+		display: inline-block;
+		padding-left: 30px;
+	}
+	a {
+		font-size: 14.5px;
+		line-height: $headerHeight;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		&:hover {
+			border-bottom: 1.6px solid #d22;
+			text-decoration: none;
+		}
+		&.logo {
+			border: none;
+			border-width: 0;
+			display: inline-block;
+			width: 305px;
+			height: $headerHeight;
+			background: url(../img/logo.png) no-repeat scroll 0 10px transparent;
+			background-size: 305px 40px;
+			text-indent: -9999em;
+			overflow: hidden;
+		}
+	}
+}

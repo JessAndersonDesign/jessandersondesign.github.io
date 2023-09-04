@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<title>Jess Anderson - Graphic Designer from Portland, Oregon</title>
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<nav id="nav">
+	<div class="container">
+		<a class="logo scroll-to-top" href="#">Jess Anderson</a>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+
+<section id="home" class="center">
+	<a name="home"></a>
+	<img src="img/tablet.gif">
+	<p class="center">
+		I am a graphic designer living in beautiful Portland, Oregon.
+	</p>
+	<a href="#about" class="down"><i class="icon-down-open"></i></a>
+</section>
+
+<section id="about">
+	<a name="about"></a>
+	<h2 class="container">About</h2>
+	<div class="container grid">
+		<div class="row">
+			<div class="col-1-2 center">
+				<img src="img/jess.jpg">
+			</div>
+			<div class="col-1-2">
+				<p>
+					I'm Jess Anderson, a designer who likes to make things!
+				</p>
+				<p>
+					My <a href="#portfolio">design experience</a> includes branding, packaging, typography,
+					illustration, layout, copywriting, and more. I have experience with product styling,
+					photography, and photo editing as well.
+				</p>
+				<p>
+					In addition to graphic design, I am crafter of greeting cards,
+					plush toys, and anything else I can think up. I have a <a href="http://createdbyjess.com/">craft blog</a>
+					where I share tutorials and ideas to inspire others to make things.
+				</p>
+				<p>
+					Two things that are always on my desk are my Wacom tablet for illustrations
+					and my headphones for listening to audio books.
+				</p>
+				<p>
+					Thanks for getting to know me! <a href="#contact">Get in touch</a> if you have any questions or would 
+					like to work together on a project.
+				</p>
+			</div>
+		</div>
+	</div>
+	<a href="#portfolio" class="down"><i class="icon-down-open"></i></a>
+</section>
+
+<section id="portfolio">
+	<a name="portfolio"></a>
+	<h2 class="container">Portfolio</h2>
+	<div class="container">
+		<div id="portfolio-grid" class="img-grid">
+		</div> 
+		<p class="center">
+			<i class="icon-behance txt-larger pd-r-m"></i>
+			<a href="http://behance.com/jessandersondesign">
+				Check out more of my work on Behance.
+			</a>
+		</p>
+		<a href="#contact" class="down"><i class="icon-down-open"></i></a>
+	</div>
+</section>
+
+<section id="contact">
+	<a name="contact"></a>
+	<h2 class="container">Contact</h2>
+	<div class="container grid">
+		<div class="row">
+			<div class="col-1-2">
+				<img src="img/bird.gif">
+			</div>
+			<div class="col-1-2 txt-white center">
+				<ul class="txt-large pd-t-l">
+					<li><a href="https://www.behance.net/jessandersondesign">
+						<i class="icon-behance"></i><br>
+						<span class="dotted">See my work on Behance</span>
+					</a></li>
+					<li><a href="https://www.linkedin.com/in/jessandersondesign">
+						<i class="icon-linkedin"></i><br>
+						<span class="dotted">Connect with me on LinkedIn</span>
+					</a></li>
+					<li><a href="http://createdbyjess.com">
+						<i class="icon-rss"></i><br>
+						<span class="dotted">Check out my crafting blog</span>
+					</a></li>
+					<li><a href="mailto:jessandersondesign@gmail.com">
+						<i class="icon-mail"></i><br>
+						<span class="dotted">Send me an email</span>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		&copy; 2015. Jess Anderson. All rights reserved.
+		<a href="#" class="scroll-to-top pull-right"><i class="icon-up-open"></i> TOP</a>
+	</div>
+</footer>
+
+<script type="t/template" id="t-portfolio-thumb">
+	<a href="img/portfolio/{{=dir}}/1.jpg" data-idx="{{=idx}}">
+		<img src="img/portfolio/{{=dir}}/thumb.jpg">
+		<span><strong>{{=title}}</strong>{{=type}}</span>
+	</a>
+</script>
+
+<script type="t/template" id="t-portfolio-overlay">
+	<div id="portfolio-overlay">
+		<div></div>
+		<div>
+			<a href="#" class="close"><i class="icon-cancel-circled txt-huge"></i></a>
+			<h2>{{=title}}</h2>
+			<h4>{{=type}}</h4>
+			<p>{{=description}}</p>
+		</div>
+	</div>
+</script>
+
+<script type="t/template" id="t-portfolio-image">
+	<img data-idx="{{=idx}}" data-image="{{=image}}" src="img/portfolio/{{=dir}}/{{=image}}.jpg">
+	<a href="#" class="prev-img"><i class="icon-left-open"></i></a>
+	<a href="#" class="next-img"><i class="icon-right-open"></i></a>
+	<span>{{=image}} / {{=images}}</span>
+</script>
+
+<script src="js/scripts.min.js"></script>
+</body>
+</html>
