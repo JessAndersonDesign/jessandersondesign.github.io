@@ -129,7 +129,7 @@
 </footer>
 
 <script type="t/template" id="t-portfolio-thumb">
-	<a href="img/portfolio/{{=dir}}/1.jpg" data-idx="{{=idx}}" class="col-xl-3 col-lg-4 col-6 mb-4">
+	<a href="img/portfolio/{{=dir}}/1.{{=imageType}}" data-idx="{{=idx}}" class="col-xl-3 col-lg-4 col-6 mb-4">
 		<img src="img/portfolio/{{=dir}}/thumb.jpg">
 		<span><strong>{{=title}}</strong>{{=type}}</span>
 	</a>
@@ -148,7 +148,7 @@
 </script>
 
 <script type="t/template" id="t-portfolio-image">
-	<img data-idx="{{=idx}}" data-image="{{=image}}" src="img/portfolio/{{=dir}}/{{=image}}.jpg">
+	<img data-idx="{{=idx}}" data-image="{{=image}}" src="img/portfolio/{{=dir}}/{{=image}}.{{=imageType}}">
 	<a href="#" class="prev-img"><i class="icon-left-open"></i></a>
 	<a href="#" class="next-img"><i class="icon-right-open"></i></a>
 	<span>{{=image}} / {{=images}}</span>

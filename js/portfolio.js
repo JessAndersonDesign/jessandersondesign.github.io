@@ -42,23 +42,15 @@
 					+ 'beauty. The cover was created using a photograph of a stunning natural beauty combined with brightly '
 					+ 'colored typography to highlight the floral elements in the image.'
 					+ '</p>',
-				tech: '',
 				images: 3
 			},
 			{
-				dir: 'whiskey',
-				title: '5th Ward',
-				type: 'Branding, Packaging, Illustration',
-				description: '<p>5th Ward Bourbon Whiskey—a drink to remember.'
-					+ '</p><p>'
-					+ '5th Ward is a brand I created after reading about “The Whiskey Wars” of 1869.'
-					+ '</p><p>The design of the logo and label creates a feeling of the time period with the suited '
-					+ 'gentleman and broadsheet style type. The box is dark to compliment the glowing warmth of the whiskey '
-					+ 'bottle and features a large photo of whiskey barrels filling a distillery warehouse. Hold this '
-					+ 'whiskey in your hand and step back in time to the streets of the 5th ward in Brooklyn, New York. '
-					+ '</p>',
-				tech: '',
-				images: 3
+				dir: 'saul',
+				title: 'Better Call Saul',
+				type: 'Illustration, Publication Design',
+				description: '<p></p>',
+				images: 3,
+				imageType: 'gif'
 			},
 			{
 				dir: 'pizza',
@@ -72,7 +64,6 @@
 					+ 'and in bottles. The simple graphics help make Pint Slice a fun and modern pizza experience in a '
 					+ 'relaxed environment.'
 					+ '</p>',
-				tech: '',
 				images: 4
 			},
 			{
@@ -87,7 +78,6 @@
 					+ 'For those seeking adventure as well as a place to unwind and enjoy the beautiful desert sunsets, '
 					+ 'Mojave awaits.'
 					+ '</p>',
-				tech: '',
 				images: 8
 			},
 			{
@@ -102,7 +92,6 @@
 					+ 'The custom popcorn tub features an illustrated Rondo Hatton, a character actor from classic horror '
 					+ 'movies.'
 					+ '</p>',
-				tech: '',
 				images: 3
 			},
 			{
@@ -115,7 +104,6 @@
 					+ 'teaspoon, repeated at a small size, is whimsical and iconic. The limited color palette evokes the '
 					+ 'Union Jack flag while the clean, vibrant look compliments the Bergamot Orange flavor in Earl Grey tea.'
 					+ '</p>',
-				tech: '',
 				images: 3
 			},
 			{
@@ -179,6 +167,7 @@
 				return;
 			}
 			var image = $image.data('image'),
+				imageType = $image.data('imageType') || 'jpg',
 				idx = $image.data('idx'),
 				project = projects[idx],
 				nextImage = prev || ($target && $target.hasClass('prev-img')) ? image-1 : image+1;
