@@ -40,6 +40,13 @@
 				images: 9
 			},
 			{
+				dir: 'shedrain-virtuals',
+				title: 'ShedRain - Custom Virtuals',
+				type: 'Branding, Marketing, Product Design',
+				description: '<p>Umbrellas have so many different customizable parts, they’re a great promotional item! As the Art Desk designer I was able to create virtual mockups to show our customers how their custom umbrellas could look. From a simple logo on one panel to custom color fabric and trim, there are no limits. Full color photographs, special ink that only appears when wet, and custom molded or engraved handles are just some of the options available.</p>',
+				images: 8
+			},
+			{
 				dir: 'shedrain-logos',
 				title: 'ShedRain – Logos',
 				type: 'Illustration, Vectorization',
@@ -112,7 +119,7 @@
 					+ 'teaspoon, repeated at a small size, is whimsical and iconic. The limited color palette evokes the '
 					+ 'Union Jack flag while the clean, vibrant look compliments the Bergamot Orange flavor in Earl Grey tea.'
 					+ '</p>',
-				images: 4
+				images: 5
 			},
 			{
 				dir: 'saul',
