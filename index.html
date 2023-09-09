@@ -137,12 +137,14 @@
 
 <script type="t/template" id="t-portfolio-overlay">
 	<div id="portfolio-overlay">
-		<div></div>
-		<div>
-			<a href="#" class="close"><i class="icon-cancel-circled txt-huge"></i></a>
-			<h2>{{=title}}</h2>
-			<h4>{{=type}}</h4>
-			<p>{{=description}}</p>
+		<div id="portfolio-wrapper">
+			<div></div>
+			<div>
+				<a href="#" class="close"><i class="icon-cancel-circled"></i></a>
+				<h2>{{=title}}</h2>
+				<h4>{{=type}}</h4>
+				{{=description}}
+			</div>
 		</div>
 	</div>
 </script>
