@@ -43,7 +43,7 @@
 				dir: 'shedrain-virtuals',
 				title: 'ShedRain - Custom Virtuals',
 				type: 'Branding, Marketing, Product Design',
-				description: '<p>Umbrellas have so many different customizable parts, they’re a great promotional item! As the Art Desk designer I was able to create virtual mockups to show our customers how their custom umbrellas could look. From a simple logo on one panel to custom color fabric and trim, there are no limits. Full color photographs, special ink that only appears when wet, and custom molded or engraved handles are just some of the options available.</p>',
+				description: '<p>Umbrellas have so many different customizable parts. They’re a great promotional item! As the Art Desk designer, I was able to create virtual mockups to show our customers how their custom umbrellas could look. From a simple logo on one panel to custom color fabric and trim, there are no limits. Full color photographs, special ink that only appears when wet, and custom molded or engraved handles are just some of the options available.</p>',
 				images: 8
 			},
 			{
@@ -90,6 +90,18 @@
 				description: '<p>These are examples of some projects I completed while working as an intern for the Girl Scouts of Oregon and Southwest Washington. Each square graphic is for a Facebook post about various events or special theme days and features illustrations from the Girl Scout image library that have been collaged and mixed with typography and photographs.</p><p>I created the recipe cards as part of a large project for the S\'mores themed open house event. I also curated a large Pinterest board with S\'mores recipes and craft ideas.</p><p>The certificates were designed to recognize completion of various training classes, they had to be easy to use and accessible to multiple staff members.</p>' 
 			},
 			{
+				dir: 'tea',
+				title: 'Royal Tea',
+				type: 'Branding, Packaging, Illustration',
+				description: '<p>Royal Tea was created to showcase the classic flavor of Earl Grey.'
+					+ '</p><p>'
+					+ 'I wanted to take a well known, sophisticated tea and make it fun and relaxed. An illustrated fancy '
+					+ 'teaspoon, repeated at a small size, is whimsical and iconic. The limited color palette evokes the '
+					+ 'Union Jack flag while the clean, vibrant look compliments the Bergamot Orange flavor in Earl Grey tea.'
+					+ '</p>',
+				images: 5
+			},
+			{
 				dir: 'magazine',
 				title: 'Eco Life Magazine',
 				type: 'Branding, Publication Design',
@@ -110,31 +122,12 @@
 				description: '<p>I designed a logo, website, and various business materials for the Crab & Lobster, a pub in Port Wenn.</p><p>The logo features hand lettering and a playful illustrated crab. This logo matches the casual and simple atmosphere of the pub and is shown in a blue that compliments the pubs waterfront views.</p><p>The printed collateral has a light and open feel that evokes the traditional style of this well established seaside pub.</p><p>A one page website keeps things casual and offers a quick overview of all the basic information customers are looking for.</p>'
 			},
 			{
-				dir: 'tea',
-				title: 'Royal Tea',
-				type: 'Branding, Packaging, Illustration',
-				description: '<p>Royal Tea was created to showcase the classic flavor of Earl Grey.'
-					+ '</p><p>'
-					+ 'I wanted to take a well known, sophisticated tea and make it fun and relaxed. An illustrated fancy '
-					+ 'teaspoon, repeated at a small size, is whimsical and iconic. The limited color palette evokes the '
-					+ 'Union Jack flag while the clean, vibrant look compliments the Bergamot Orange flavor in Earl Grey tea.'
-					+ '</p>',
-				images: 5
-			},
-			{
 				dir: 'saul',
 				title: 'Better Call Saul',
 				type: 'Illustration, Publication Design',
 				description: '<p>An example of publication design, this magazine spread features an article about the television show Better Call Saul. A clean layout and custom illustrations enhance the written article while color and typography compliment the feel of the show.</p>',
 				images: 3,
 				imageType: 'gif'
-			},
-			{
-				dir: 'infographics',
-				title: 'Infographics',
-				type: 'Infographic Design, Illustration',
-				images: 2,
-				description: '<p>These infographics were designed to share a small number of facts about our shower and tv viewing habits. I read several interesting articles about water usage, grooming habits, and what we watch on television.</p><p>Through infographics I was able to condense entire articles into a few interesting facts and share them in an entertaining, easy to read format.</p><p>My hope is that the illustrations engage the viewer and make the facts more memorable.</p>'
 			},
 			{
 				dir: 'movie',
